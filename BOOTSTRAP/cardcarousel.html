@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cardcarousel</title>
+</head>
+<body>
+  <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap icon cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+</body>
+      <div class="container">
+        <div class="carousel slide" data-bs-ride="carousel" id="mycarousel">
+            <button class="carousel-control-prev" data-bs-target="#mycarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#mycarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+            <!-- carousel indicators -->
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="1"></button>
+                <button tyep="button" data-bs-target="#mycarousel" data-bs-slide-to="2"></button>
+              </div>
+                <!-- carousel inner -->
+              <div class="carousel-inner">
+                  <!-- card 1 -->
+                  <div  class="carousel-item active" data-bs-interval="1000">
+                    <div class="card col text-center justify-content-around border border-dark ">
+                      <div class="row row-cols-1">
+                        <div class="card-body">
+                          <h1 class="card-header">SILVER CITY</h1>
+                          <img src="../medias/silvercity.jpg" width="800px" height="600px" class="card-img">
+                          <h1 class="card-title fs-1 text-decoration-underline">Silver city</h1>
+                          <p class="card-text fs-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore explicabo libero iusto earum nemo! Id laborum ut voluptas accusamus libero.</p>
+                          <button class="btn btn-outline-success float-start">read more</button>
+                        </div>
+                        <div class="card-footer row justify-content-evenly bg-warning border border-dark">
+                          <div class="col"><i class="bi bi-facebook"></i></div>
+                          <div class="col"><i class="bi bi-whatsapp"></i></div>
+                          <div class="col"><i class="bi bi-twitter-x"></i></div>
+                          <div class="col"><i class="bi bi-linkedin"></i></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 <!-- card 2 -->
+                  <div class="carousel-item " data-bs-interval="2000">
+                    <div class="row row-cols-1 ">
+                      <div class="card col text-center justify-content-around border border-dark ">
+                        <div class="card-body">
+                          <h1 class="card-header">GOLDEN CITY</h1>
+                          <img src="../medias/goldencity.jpeg" width="800px" height="600px" class="card-img">
+                          <h1 class="card-title fs-1 text-decoration-underline">golden city</h1>
+                          <p class="card-text fs-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore explicabo libero iusto earum nemo! Id laborum ut voluptas accusamus libero.</p>
+                          <button class="btn btn-outline-success float-start">read more</button>
+                        </div>
+                      </div>
+                      <div class="card-footer row justify-content-evenly bg-warning">
+                        <div class="col"><i class="bi bi-facebook"></i></div>
+                        <div class="col"><i class="bi bi-whatsapp"></i></div>
+                        <div class="col"><i class="bi bi-twitter-x"></i></div>
+                        <div class="col"><i class="bi bi-linkedin"></i></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card 3 -->
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <div class="row row-col-1">
+                      <div class="card col text-center justify-content-around border border-dark ">
+                        <div class="card-body">
+                          <h1 class="card-header">DIAMOND CITY CITY</h1>
+                          <img src="../medias/diamond city.jpeg" width="800px" height="600px" class="card-img">
+                          <h1 class="card-title fs-1 text-decoration-underline">diamond city</h1>
+                          <p class="card-text fs-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore explicabo libero iusto earum nemo! Id laborum ut voluptas accusamus libero.</p>
+                          <button class="btn btn-outline-success float-start">read more</button>
+                        </div>
+                      </div>
+                      <div class="card-footer row justify-content-evenly bg-warning border border-dark">
+                        <div class="col"><i class="bi bi-facebook"></i></div>
+                        <div class="col"><i class="bi bi-whatsapp"></i></div>
+                        <div class="col"><i class="bi bi-twitter-x"></i></div>
+                        <div class="col"><i class="bi bi-linkedin"></i></div>
+                      </div>                      
+                    </div>
+                  </div>                 
+               </div>
+        </div>
+      </div>
+</html>

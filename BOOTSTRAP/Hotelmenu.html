@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link href="../medias/hotelicon.png" rel="icon">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+          integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"
+  ></script>
+  <!-- bootstrap icon cdn -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Libre Baskerville', serif;
+    }
+    .card1:hover
+    {
+        cursor: pointer;
+        transform: translateY(-20px);
+        transition: 3s;
+        transition-delay: 0.3s;
+        box-shadow: 5px 5px 15px #DC4C64;
+    }
+    .card2:hover,.card3:hover,.card4:hover
+    {
+        cursor: pointer;
+        transform: translateY(-10px);
+        transition: 1s;
+        transition-delay: 0.1s;
+        box-shadow:5px 5px 15px rgb(133, 132, 132);
+    }
+
+    .menu:hover
+    {
+        color: #DC4C64;
+        cursor: pointer;
+    }
+    .car1
+    {
+        border-left: 5px solid #DC4C64;
+    }
+    
+</style>
+</head>
+<body >
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg container p-3 navbar-light bg-white">   
+        
+                <a href="#" class="navbar-brand text-dark fw-bold" style="font-size: x-large;">Yummy<span class="text-danger"  style="font-size: large;">.</span></a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav" type="button">
+                    <span class="navbar-toggler-icon" ></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mynav">
+                    <ul class="navbar-nav me-auto ms-5">
+                        <li class="nav-item">
+                            <a class="nav-link ms-4 text-secondary" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-4 text-secondary" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-4 text-secondary" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-4 text-secondary" href="#">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-4 text-secondary" href="#">Chefs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-4 text-secondary" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item dropdown ms-4 ">
+                            <a class="nav-link dropdown-toggle text-secondary" data-bs-toggle="dropdown" >Drop down</a>
+                        </li>
+                        <li class="nav-item ms-4 me-5">
+                            <a class="nav-link text-secondary" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-danger rounded-pill ms-5" style="padding: 7px 20px 7px;" >
+                                Book a Table
+                            </button>
+                        </li>
+                    </ul>
+                </div>    
+    </nav>
+    <!-- first box -->
+    <div class="container-fluid p-5" style="background-color: rgb(239, 239, 239);">
+            <div class="row justify-content-between">
+                <div class="col-lg-6 col-sm-6 col-md-6 col-sm-12 mt-5">
+                    <div class="container ">
+                        <h1 style="font-size:55px;letter-spacing: 3px;">
+                            Enjoy your Healthy Delicious Food
+                        </h1>
+                        <br>
+                        <p>Ullam laboriosam libero modi. Quos perspiciatis tenetur ad in, molestiae officiis delectus. Numquam quos corrupti odit cumque</p>
+                        <br>
+                        <button class="btn btn-danger rounded-pill me-4" style="padding: 10px 25px 10px; box-shadow: 2px 2px 7px #DC4C64;">
+                            Book a Table
+                        </button>
+                        <a href="#" class="mt-5" style="text-decoration: none; color: black; font-size: x-large;"><i class="bi bi-play-btn-fill warning " style="text-decoration: none; color: rgb(221, 19, 19); font-size:x-large ;"></i> watch video</a>
+                     </div>
+                </div>
+                <div class="col-lg-3 col-sm-5 col-md-5 mt-5">
+                        <img src="../medias/salad.png" style="height: 450px;width: 200px;"  class="w-100">          
+                </div>
+            </div>
+    </div>
+    <!-- second box -->
+    <div class="container-fluid">
+        <h6 class="mt-5 text-muted text-center">ABOUT US</h6>
+        <h1 class="text-center">Learn More<span class="text-danger">&nbsp;About Us</span>
+        <div class="row">
+            <div class="col-lg-7 mb-5 d-flex align-items-end justify-content-center">
+                <div class="text-center" style="box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);padding: 25px 200px 15px;">
+                    <h4 class="fw-bold h4">Book a Table</h4>
+                    <p class="text-danger ">+1 5559 9856</p>
+                    
+
+                </div>
+            </div>
+            
+            <div class="col-lg-5">
+                <div class="container">
+                    <h6 class="text-start mt-5 fst-italic" style="line-height: 1.6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis totam quaerat voluptatibus cumque cupiditate cum Lorem ipsum dolor sit amet.</h6>
+                    <ul class="list-unstyled text-start mt-4">
+                        <li class="h6 fst-italic"><i class="bi bi-arrow-right-circle-fill text-danger h6" style="line-height: 1.6;"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur lorem conductvity sas for order</li>
+                        <li class="h6 mt-4 fst-italic"style="line-height: 1.6;"><i class="bi bi-arrow-right-circle-fill text-danger h6 "></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur lorem conductvity.</li>
+                        <li class="h6 mt-4 fst-italic"style="line-height: 1.6;"><i class="bi bi-arrow-right-circle-fill text-danger h6 "></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam culpa exercitationem molestias minus at consectetur, dignissimos ut, beatae quos fugit dolores aut vero, necessitatibus ipsa.</li>
+                    </ul>
+                    <p class="mt-5 h6 text-start lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae expedita officia possimus? Velit et harum, consectetur eius error magni tempore expedita quam quae quibusdam, molestias optio, nemo maiores voluptates animi neque provident soluta ipsam! Provident.</p>
+                    <iframe class="mt-4" width="560" height="315" src="https://www.youtube.com/embed/4K6Sh1tsAW4?si=syaDBK3B8auy1KAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- third box -->
+    <div class="container-fluid mt-5 row" style="display: flex; justify-content: space-around;background-color: rgb(239, 239, 239); padding: 50px;">
+        <div class=" card1 card bg-danger text-light p-4 col-lg-3 col-sm-12 " style="width: 25rem; height: 25rem;" >
+            <div class="card-body" >
+                <h3 class="card-title text-start">Why choose Yummy ?</h3>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam vero quas commodi quod. Suscipit ratione voluptatibus tempora, quasi perspiciatis minus. In, inventore. Quas nam itaque quibusdam eum, quam inventore sapiente!
+                </p>
+                <br>
+                <div class="text-center">
+                    <button class="btn rounded-pill text-light text-center " style="background-color: #e27b8c; padding: 10px 25px 10px;">
+                        Learn More
+                    </button>
+                </div>
+
+            </div>
+            
+
+        </div>
+        <div class=" card2 card  text-dark p-4 col-lg-2 col-sm-12 mt-3" style="width: 20rem; height: 23rem;" >
+            <div class="card-body text-center ">
+                <i class="bi bi-bag-fill" style=" text-decoration: none; color: rgb(221, 19, 19); font-size:x-large ;"></i>
+                <br>
+                <h6 class="card-title text-center mt-3">laudantium error placeat amet expedita</h6>
+                <br>
+                <p class="mt-3 text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos officiis voluptatum aspernatur suscipit quia libero architecto optio nostrum reprehender      </p>
+                <br>
+            </div>
+            
+
+        </div>
+        <div class="card3 card  text-dark p-4 col-lg-2 col-sm-12 mt-3" style="width: 20rem; height: 23rem;" >
+            <div class="card-body text-center ">
+                <i class="bi bi-bag-fill" style=" text-decoration: none; color: rgb(221, 19, 19); font-size:x-large ;"></i>
+                <br>
+                <h6 class="card-title text-center mt-3"> aliquid architecto sunt commodi vel blanditiis.</h6>
+                <br>
+                <p class="mt-3 text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos officiis voluptatum aspernatur suscipit quia libero architecto optio nostrum reprehender      </p>
+                <br>
+            </div>
+            
+
+        </div>            
+
+        <div class="card4 card  text-dark p-4 col-lg-2 col-sm-12 mt-3" style="width: 20rem; height: 23rem;" >
+            <div class="card-body text-center ">
+                <i class="bi bi-bag-fill" style=" text-decoration: none; color: rgb(221, 19, 19); font-size:x-large ;"></i>
+                <br>
+                <h6 class="card-title text-center mt-3">laudantium error placeat amet expedita</h6>
+                <br>
+                <p class="mt-3 text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos officiis voluptatum aspernatur suscipit quia libero architecto optio nostrum reprehender      </p>
+                <br>
+            </div>
+            
+
+        </div>
+
+    </div>
+    <!-- Fourth box -->
+    <div class="container-fluid">
+        <p class="text-muted mt-5 text-center">OUR MENU</p>
+        <h1 class="text-center">Check Our <span class="text-danger"> Yummy Menu</span></h1>
+       <div class="text-center mt-5"><span class="menu me-5"> Starters</span><span class="menu me-5">Breakfast</span><span class="menu me-5">Lunch</span><span class="menu">Dinner</span></div>
+       <p class="mt-5 text-secondary text-center">MENU</p>
+       <h2 class="text-center text-danger fw-bold">Starters</h2>
+       <div class="row p-5 justify-content-between">
+            <div class="col-lg-3 text-center ms-5">
+                <img src="../medias/salad.png" width="350px"/>
+                <h5 class="text-center">Salad Veggie</h5>
+                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+                <h2 class="text-danger">$5.95</h2>
+            </div>
+            <div class="col-lg-3 text-center ">
+                <img src="../medias/salad.png" width="350px"/>
+                <h5 class="text-center">Salad Veggie</h5>
+                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+                <h2 class="text-danger">$5.95</h2>
+            </div>
+            <div class="col-lg-3 text-center me-5">
+                <img src="../medias/salad.png" width="350px"/>
+                <h5 class="text-center">Salad Veggie</h5>
+                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+                <h2 class="text-danger">$5.95</h2>
+            </div>
+       </div>
+       <div class="row p-5 justify-content-between ">
+            <div class="col-lg-3 text-center ms-5 ">
+                <img src="../medias/salad.png" width="350px"/>
+                <h5 class="text-center">Salad Veggie</h5>
+                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+                <h2 class="text-danger">$5.95</h2>
+            </div>
+            <div class="col-lg-3 text-center ">
+                <img src="../medias/salad.png" width="350px"/>
+                <h5 class="text-center">Salad Veggie</h5>
+                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+                <h2 class="text-danger">$5.95</h2>
+            </div>
+            <div class="col-lg-3 text-center me-5 ">
+                <img src="../medias/salad.png" width="350px"/>
+                <h5 class="text-center">Salad Veggie</h5>
+                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+                <h2 class="text-danger">$5.95</h2>
+            </div>
+       </div>
+
+     </div>
+     <!-- carosuel  -->
+    <div class="container-fluid  p-5" style="background-color: rgb(239, 239, 239); ">
+        <p class="text-secondary text-center">TESTIMONIALS</p>
+        <h1 class="text-center">What are They <span class="text-danger ">Saying About Us</span></h1>
+        <div class="container mt-5" style="padding: 50px 100px 50px;">
+            <div class="carousel carousel-dark slide" data-bs-ride="carousel" id="mycarousel">
+                <!-- carousel indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#mycaroiusel" data-bs-slide-to="2"></button>
+                </div>
+                <div>
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <div class=" p-4 row">
+                                <div class="car1 col-lg-9 col-md-9 col-sm-9">
+                                    <p class="ms-3 lh-base fst-italic mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint illum voluptatum soluta neque quidem sed dolores eaque veniam autem blanditiis, quis voluptas voluptatem eveniet ut deserunt corrupti totam vel.</p>
+                                    <h5 class="fw-bold ms-3"> Jenna Karis</h5>
+                                    <p class="text-secondary ms-3">Store owner</p>
+    
+                                </div>
+                                <div class="col-lg-3 col-sm-3 col-md-3 ">
+                                    <img src="../medias/professionalimage.png" width="220px">
+                                </div>
+    
+                            </div>    
+                        </div>
+                        <div class="carousel-item " data-bs-interval="2000">
+                            <div class=" p-4 row">
+                                <div class="car1 col-lg-9 col-sm-12 ">
+                                    <p class="ms-3 lh-base fst-italic mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint illum voluptatum soluta neque quidem sed dolores eaque veniam autem blanditiis, quis voluptas voluptatem eveniet ut deserunt corrupti totam vel.</p>
+                                    <h5 class="fw-bold ms-3"> Jenna Karis</h5>
+                                    <p class="text-secondary ms-3">Store owner</p>
+    
+                                </div>
+                                <div class="col-lg-3 ">
+                                    <img src="../medias/professionalimage2.png" width="200px">
+                                </div>
+    
+                            </div>    
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class=" p-4 row">
+                                <div class="car1 col-lg-9 col-sm-12 ">
+                                    <p class="ms-3 lh-base fst-italic mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint illum voluptatum soluta neque quidem sed dolores eaque veniam autem blanditiis, quis voluptas voluptatem eveniet ut deserunt corrupti totam vel.</p>
+                                    <h5 class="fw-bold ms-3"> Jenna Karis</h5>
+                                    <p class="text-secondary ms-3">Store owner</p>
+    
+                                </div>
+                                <div class="col-lg-3 ">
+                                    <img src="../medias/professionalimage3.png" width="240px">
+                                </div>    
+                            </div>    
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+     </div>
+     <div class="conatiner-fluid mt-5 p-5">
+        <p class="text-secondary text-center">CHEFS</p>
+        <h1 class="text-center">Our <span class="text-danger"> Professional</span> Chefs</h1>
+        <div class="conatiner justify-content-around text-center">
+            <div class=" row justify-content-around mt-5">
+                <div class="col-lg-3 card p-0 " style="background-color: #fcfcff;">
+                    <img src="../medias/chef1.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="fw-bold">Walter white</h4>
+                        <p class="text-secondary">Master chef</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eaque quia a nam repudiandae itaque, voluptas saepe laboriosam voluptates est quaerat tenetur cupiditate voluptatum magnam corrupti veritatis accusantium? Harum, aliquam!</p>
+    
+                    </div>
+    
+                </div>
+                <div class="col-lg-3 card p-0" style="background-color: #fcfcff;">
+                    <img src="../medias/chef2.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="fw-bold">Salena</h4>
+                        <p class="text-secondary">Pastier</p>
+                        <p> eligendi iure inventore similique facilis quo assumenda veniam nisi non perferendis amet rerum exercitationem quas! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est dolorum explicabo rem neque dolor.</p>
+    
+                    </div>
+    
+                </div>
+                <div class="col-lg-3 card p-0" style="background-color: #fcfcff;">
+                    <img src="../medias/chef3.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="fw-bold">Arun Mahes</h4>
+                        <p class="text-secondary">Head chef</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eaque quia a nam repudiandae itaque, voluptas saepe laboriosam voluptates est quaerat tenetur cupiditate voluptatum magnam corrupti veritatis accusantium? Harum, aliquam!</p>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+        </div>
+
+     </div>
+     <div class="conatiner-fluid " style="background-color:rgb(239, 239, 239); ">
+        <p class="text-secondary text-center mt-5 ">Book a Table</p>
+        <h1 class="text-center">Book <span class="text-danger"> Your Stay</span> With Us</h1>
+
+     </div>
+
+   
+    
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perfumey</title>
+    <style>
+        *{
+            font-family:'Times New Roman', Times, serif;
+        }
+        nav{
+            background-color: black;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            
+        }
+        #hey
+        {
+            display: inline;
+        }
+        ul{
+            float: inline-end;
+            display: inline;
+            /* margin-left: 1050px; */
+        }
+        li{
+            display: inline;
+            margin-left: 5px;
+            color: grey;
+            cursor: pointer;
+        }
+        li:hover
+        {
+            color: white;
+        }
+        #Search
+        {
+            margin: 50px;
+            text-align: center;
+        }
+        #text
+        {
+            
+            width: 600px;
+            height: 40px;
+            border: 1px black solid;
+            border-radius: 10px;
+            padding-left:5px;    
+
+        }
+        #img1
+        {
+            background-blend-mode:hard-light;
+            background-image: url(../medias/foggone.jpg);
+            border: 4px  rgb(220, 217, 214) hotpink;
+            width: 290px;
+            height: 330px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 9px 10px 15px gray;
+        }
+        #img1:hover,#img2:hover,#img3:hover{
+            box-shadow: 2px 2px 20px rgb(76, 76, 76);
+            background-color: rgb(220, 217, 214);
+            transform: translateY(-9px);
+            transition-delay: 0.1s;
+            transition-duration: 2s;
+            
+        }
+        #img2,#img3
+        {   
+            
+            background-blend-mode:hard-light;
+            background-image: url(../medias/foggone.jpg);
+            border: 4px  rgb(220, 217, 214) hotpink;
+            width: 290px;
+            height: 330px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 9px 10px 15px gray;
+
+        }
+        #main
+        {
+            /* background-color: blueviolet; */
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        #About
+        {
+            margin-top: 50px;;
+        }
+        #footer
+        {
+            text-wrap: wrap;
+            background-color: black;
+            min-width:500px;
+            min-height: 350px;
+            color: white;
+            border-radius: 10px;
+        }
+        #contact
+        {
+            text-align: center;
+            padding-top: 30px;
+        }
+        #num,#em
+        {
+            text-align: center;
+            color: grey;
+        }
+        #last
+        {
+            padding: 10px;
+            margin-bottom: 10px;
+            
+        }
+        @media screen and (max-width: 500px) {
+            .form{
+                flex-wrap: wrap;
+            }
+
+            
+        }
+        #p1
+        {
+            text-decoration: double;
+            text-align: left;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        #price{
+            text-align: left;
+            font-size:larger ;
+            margin-top: 0%;
+            margin-bottom: 15px;
+        }
+        #firstbutton
+        {
+            background-color: black;
+            color:white;
+            font-size: large;
+            padding: 10px;
+            border: 10px gray;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 150px;
+        }
+    </style>
+</head>
+<body id="form">
+    <nav>
+        <h1 id="hey">F O G G</h1>
+        <ul>
+            <li>Home </li>
+            <li>|</li>
+            <li><a href="#About" style="color: gray; text-decoration: none;">PRODUCT</a> </li>
+            <li>|</li>
+            <li><a href="#About" style="color: gray; text-decoration: none;">About</a> </li>
+            <li>|</li>
+            <li><a href="#footer" style="color: gray; text-decoration: none;">Contact</a> </li>
+            <li>|</li>
+        </ul>
+    </nav>
+    <div id="Search"><input  id="text" type="search" placeholder="Search"></div>
+    <div id="main">
+    <div id="img1">
+        <img src="../medias/foggone.jpg" width="200px" height="200px" >
+        <p id="p1">Fogg Fresh Aromatic Black and Fine Series Fragrance Body Spray 120ML</p>
+        <p id="price"><b>Rs. 255</b></p>
+        <button id="firstbutton">BUY NOW</button>
+    </div>
+    <div id="img2">
+        <img src="../medias/foogtwo.jpg" width="200px" height="200px">
+        <p id="p1">Fogg Fresh Aromatic Black and Fine Black Fragrance Body Spray 120ML</p>
+        <p id="price"><b>Rs. 300</b></p>
+        <button id="firstbutton">BUY NOW</button>
+    </div>
+    <div id="img3">
+        <img src="../medias/foggthree.jpg" width="200px" height="200px">
+        <p id="p1">Fogg Fresh Aromatic Black and Gold Series Fragrance Body Spray 120ML</p>
+        <p id="price"><b>Rs. 275</b></p>
+        <button id="firstbutton">BUY NOW</button>
+    </div>
+    </div>
+    <h1 align="center" id="About">About Us</h1>
+    <p align="center">“Working within extremely narrow time constraints for relocation from our previous facility, your commitment and project capability to complete the renovation of the Brunswick building to specification was a professional achievement… If the balance of our lease works out as well as the beginning, I am certain we will both enjoy the long term benefits.” “In this day and age of “make sure the rent check is on time” you have consistently gone the extra mile to assure that the Akron Beacon Journal’s needs are addressed. The building and associated grounds have been maintained in above average condition. This is an important factor for us in motivating our team members and providing a safe environment to conduct business. That concept of pure customer service is both refreshing and appreciated.”</p>
+    <div id="footer">
+        <h1 id="contact">Contact</h1>
+        <h2 id="num">+91 9025955071</h2>
+        <h2 id="em">hariprasaath@2002</h2>
+        <br>
+        <p align="center" id="last">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nam tempore porro magni libero! Ut accusantium eum adipisci, fugit excepturi voluptatem facere rem recusandae neque aspernatur, veniam nulla quae voluptatibus perferendis laboriosam voluptates officiis magni, deserunt ea ullam provident. At, ab. Officiis dolorum, nostrum, provident perferendis iure, at aliquam dolores id alias amet quis blanditiis non dicta? Officia, totam ullam! Ducimus corporis tempora, provident perspiciatis recusandae id nostrum optio repellendus error vel omnis, voluptatibus magnam, accusantium impedit dignissimos sapiente tempore natus laudantium blanditiis ad. Pariatur eum culpa sequi magni voluptate voluptates at exercitationem, unde ex perferendis velit quo molestiae nulla?</p>
+
+
+    </div>
+</body>
+</html>
